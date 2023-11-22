@@ -41,7 +41,7 @@ class Ventana1(QMainWindow):
 
 
        self.fondo = QLabel(self)
-       self.imagenfondo = QPixmap('imagenes/fondo.jpg')
+       self.imagenfondo = QPixmap('imagenes/fondo.1.jpg')
        self.fondo.setPixmap(self.imagenfondo)
        self.fondo.setScaledContents(True)
 
