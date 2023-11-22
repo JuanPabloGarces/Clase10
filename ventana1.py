@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import QMainWindow, QDesktopWidget, QLabel, QHBoxLayout, QA
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtCore import Qt
 from clientes import Cliente
-
+from ventana2 import Ventana2
 
 
 
@@ -290,7 +290,7 @@ class Ventana1(QMainWindow):
        self.botonBuscar.setStyleSheet("background-color: #008B45;"
                                       "color: #FFFFFF;"
                                       "padding: 10px;"
-                                      "margin-top: 40px;")
+                                      "margin-top: 10px;")
 
 
        self.botonBuscar.clicked.connect(self.accion_botonBuscar)
@@ -305,13 +305,29 @@ class Ventana1(QMainWindow):
        self.botonRecuperar.setStyleSheet("background-color: #008B45;"
                                          "color: #FFFFFF;"
                                          "padding: 10px;"
-                                         "margin-top: 40px;")
+                                         "margin-top: 10px;")
 
 
        self.botonRecuperar.clicked.connect(self.accion_botonRecuperar)
 
 
        self.ladoDerecho.addRow(self.botonBuscar, self.botonRecuperar)
+
+       self.botonContinuar = QPushButton("Continuar")
+
+       self.botonContinuar.setFixedWidth(90)
+
+       self.botonContinuar.setStyleSheet("background-color: #008B45;"
+                                         "color: #FFFFFF;"
+                                         "padding: 10px;"
+                                         "margin-top: 10px;"
+                                         )
+
+
+       self.botonContinuar.clicked.connect(self.accion_botonContinuar)
+
+       self.ladoDerecho.addRow((self.botonContinuar))
+
 
 
        self.horizontal.addLayout(self.ladoDerecho)
@@ -702,6 +718,12 @@ class Ventana1(QMainWindow):
 
 
                self.ventanaDialogo.exec_()
+
+   def accion_botonContinuar(self):
+       self.hide()
+       self.ventana2 = Ventana2(self)
+       self.ventana2.show()
+
 
 
 if __name__ == '__main__':
