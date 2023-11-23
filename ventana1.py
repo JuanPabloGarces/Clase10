@@ -6,9 +6,8 @@ from PyQt5.QtWidgets import QMainWindow, QDesktopWidget, QLabel, QHBoxLayout, QA
    QPushButton, QDialog, QDialogButtonBox, QVBoxLayout
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtCore import Qt
-from clientes import Cliente
+from cliente import Cliente
 from ventana2 import Ventana2
-
 
 
 class Ventana1(QMainWindow):

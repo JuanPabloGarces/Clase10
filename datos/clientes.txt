@@ -1,0 +1,10 @@
+juan pablo Garces;juanpg;12345;12345678;juanp@gmail.com;text() + ";";text() + ";";text() + ";";text() + ";";text() + ";";text() + ";"
+juan pablo Garces;juanpg;12345;12345678;juanp@gmail.com;text() + ";";text() + ";";text() + ";";text() + ";";text() + ";";text() + ";"
+Sofia Quintero;sofiaq;1234;123456789;sofia@gmail.com;hola;si;hola;si;hola;si
+l;l;l;l;l;l;l;l;l;l;l;l
+3;3;3;3;3;3;3;3;3;3;3;3
+=======
+juan pablo Garces;juanpg;12345;12345;12345678;juanp@gmail.com;text() + ";";text() + ";";text() + ";";text() + ";";text() + ";";text() + ";"
+juan pablo Garces;juanpg;12345;12345;12345678;juanp@gmail.com;text() + ";";text() + ";";text() + ";";text() + ";";text() + ";";text() + ";"
+>>>>>>> 8e129cff53de6231446064b162917196048f79bfJuan Pablo Garces Henao;juangh;Alfanumerica12;Alfanumerica12;1017926743;juanpablogarceshenao00@gmail.com;fecha de nacimiento;15/01/2006;inicio de 1er semestre;08/08/2023;edad del estudiante;17
+Juan Pablo Garces Henao;juangh;Alfanumerica12;Alfanumerica12;1017926743;juanpablogarceshenao00@gmail.com;fecha de nacimiento;15/01/2006;inicio de 1er semestre;08/08/2023;edad del estudiante;17
